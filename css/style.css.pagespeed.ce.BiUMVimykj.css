@@ -1,0 +1,53 @@
+h1,h2,h3,h4,h5,h6{color:#39b54a;margin:15px 0;}
+.breadcrumbs ul{margin-left:0;padding-left:0;color:#808285;}
+.breadcrumbs ul li{display:inline-block}
+.breadcrumbs ul li a{font-size:14px;color:#808285;}
+.page-text p, ul li, ol li{margin:0 0 10px;line-height:1.5;}
+.page-text ul{margin:0 0 10px;padding:0 0 0 20px;text-align:justify;}.page-text ol{margin:0 0 10px;padding:0 0 0 20px;text-align:justify;}
+.slider .slider-item .slider-list .slider-list__item{line-height:1;}
+.page-text__readmore{font-weight:700;cursor:pointer;line-height:1.2;display:inline-block;background:#39b54a;padding:20px 20px;margin:20px 0;-webkit-border-radius:10px;border-radius:10px;color:#FFF;text-transform:uppercase;}
+.page-text__readmore:hover{background:#27c13c}
+.img_pad{padding:10px}
+.img_roud{-moz-border-radius:20px;-webkit-border-radius:20px;-khtml-border-radius:20px;border-radius:20px;}
+.scale-microscope{-webkit-transition:all 1s ease;-moz-transition:all 1s ease;-ms-transition:all 1s ease;-o-transition:all 1s ease;transition:all 1s ease;}
+.scale-microscope:hover{display:block;-webkit-transform:scale(2.1);-moz-transform:scale(2.1);-ms-transform:scale(2.1);-o-transform:scale(2.1);transform:scale(2.1);transform-origin:right top;}
+.scale-tm{-webkit-transition:all 1s ease;-moz-transition:all 1s ease;-ms-transition:all 1s ease;-o-transition:all 1s ease;transition:all 1s ease;}
+.scale-tm:hover{display:block;-webkit-transform:scale(2.0);-moz-transform:scale(2.0);-ms-transform:scale(2.0);-o-transform:scale(2.0);transform:scale(2.0);transform-origin:left bottom;}
+.footer-copyright__text{line-height:1}
+.remodal-close:hover:before{-webkit-transform:rotate(15deg);-ms-transform:rotate(15deg);transform:rotate(15deg)}
+.price table{width:100%}
+.price table tr:nth-child(odd){background-color:#f4f4f4}
+.price table td{line-height:1.5;padding:5px}
+.price table td:last-child{font-weight:bold;width:100px;text-align:right}
+.gray_box{margin:10px;padding:10px;background-color:#f4f4f4;}
+.ortoped_box{margin:10px;padding:10px;overflow:auto;}
+.per_item{margin:20px 0px;opacity:1}
+.per_item a:hover{text-decoration:none;}
+.per_item_name{min-height:130px;background-color:#dfeecf;position:relative;bottom:20px;padding:40px 20px 20px 30px;border-radius:0px 0px 20px 20px;}
+.per_img img{width:100%;border-radius:20px;}
+.per_img{position:relative;z-index:4;}
+.per_img:before{content:"";position:absolute;z-index:-1;top:10px;right:10px;width:100%;height:100%;background:linear-gradient(to top, #39b54a, #1db8ea);border-radius:20px;}
+.per_img:after{content:"";position:absolute;z-index:10;bottom:10px;right:10px;width:50px;height:95px;background-image:url(../img/page/personal/per_logo.png);background-repeat:no-repeat;}
+.per_desc_top{min-height:228px}
+.per_desc{position:relative;margin-top:12px;z-index:1;min-height:285px;padding:60px 90px 30px 60px;}
+.per_desc:before{content:"";position:absolute;z-index:-1;top:9px;right:40px;width:100%;min-height:285px;background-image:url(../img/page/personal/per_desc_bg.jpg);border-radius:0 20px 20px 0;}
+.per_green{width:100%;height:11px;background:#39b54a;margin-bottom:30px;}
+.callback-form textarea{width:100%;border:1px solid #00aeef;padding:5px 10px;}
+.callback-form input[type=submit]{background:#00aeef;color:#FFF;-webkit-border-radius:10px;border-radius:10px;-webkit-box-shadow:0 4px 2px #006db8;box-shadow:0 4px 2px #006db8;border:none;font:inherit;display:inline-block;min-width:110px;padding:12px 0;-webkit-transition:background .2s;transition:background .2s;text-align:center;vertical-align:middle;margin:10px 0;}
+.callback-form input[type=submit]:focus, .callback-form input[type=submit]:hover{background:#006db8;}
+::-webkit-scrollbar-button{background-image:url('');background-repeat:no-repeat;width:2px;height:0px}
+::-webkit-scrollbar-track{background-color:#f4f4f4;box-shadow:0px 0px 3px #4e555b inset;}
+::-webkit-scrollbar-thumb{-webkit-border-radius:5px;border-radius:5px;background-color:#39b54a;box-shadow:0px 1px 1px #fff inset;background-image:url('../img/scroll_bg.png');background-position:center;background-repeat:no-repeat;}
+::-webkit-resizer{background-image:url('');background-repeat:no-repeat;width:2px;height:0px}
+::-webkit-scrollbar{width:6px;}
+/* (1440x900) WXGA+ Display */
+@media  screen and (max-width: 1440px) {
+    .elements{display:none}
+    /* insert styles here */
+}
+
+/* (1680x1050) WSXGA+ Display */
+@media  screen and (max-width: 1680px) {
+
+    /* insert styles here */
+}
